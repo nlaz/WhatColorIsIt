@@ -56,7 +56,7 @@ public class MainActivity extends ActionBarActivity {
     };
 
     private String formatTime(int hours, int minutes, int seconds){
-        return formatDigits(hours) + " : " + formatDigits(minutes) + " : " + formatDigits(seconds);
+        return formatDigits(hours) + ":" + formatDigits(minutes) + ":" + formatDigits(seconds);
     }
 
     private String formatHex (int hours, int minutes, int seconds){
